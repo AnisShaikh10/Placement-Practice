@@ -40,6 +40,8 @@ public class array_search
         }
 
         System.out.println(find_no +  " not found in an array, Sorry!!");
+
+        sc.close();
         
     }    
 }
