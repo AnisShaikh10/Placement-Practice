@@ -24,5 +24,7 @@ public class greatest_common_divisor
 
         System.out.println("GCD of " + num1 + " and " + num2 + " is: " + gcd);
 
+        sc.close();
+
     }
 }
