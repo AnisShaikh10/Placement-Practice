@@ -28,7 +28,7 @@ public class array_search
         {
             if(find_no == numbers_list[j])
             { 
-                System.out.println(find_no + " Found at location " + j);
+                System.out.println(find_no + " Found at index " + j);
                 return;
             }
             else
@@ -39,7 +39,7 @@ public class array_search
             
         }
 
-        System.out.println("Sorry number " + find_no +  " not found in an array");
+        System.out.println(find_no +  " not found in an array, Sorry!!");
         
     }    
 }
